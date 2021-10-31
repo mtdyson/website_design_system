@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("/Users/MatthewDyson/Library/Fonts/horizon.ttf");
+}
+
+body {
+    font-family: myFirstFont;
+  }
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.moac-gold {
+    background-color: #BBAD7D;
+    color: black;
+}
+
+.moac-grey {
+    background-color: #7D7E80;
+    color: black;
+}
+
+.moac-white {
+    background-color: #FFFFFF;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.moac-black {
+    background-color: #000000;
+    color: white;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+  
