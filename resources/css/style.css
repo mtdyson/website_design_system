@@ -104,6 +104,20 @@ p {
     font-family: HorizonOutlined;
 }
 
+.text-container {
+    width: 100%;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px; 
+    font-family: HorizonBold;
+}
+
+li {
+    font-family: HorizonOutlined;
+}
+
 
 
 
